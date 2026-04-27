@@ -186,17 +186,27 @@ footer { background: var(--bg); padding: 48px 24px; border-top: 1px solid var(--
 footer p { font-size: 0.82rem; max-width: 700px; margin: 0 auto; line-height: 1.8; }
 footer a { color: var(--green); }
 
+.big-footer { background: var(--card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 48px 24px; margin-bottom: 32px; }
+.footer-col-group { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.footer-col h4 { color: var(--green); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; }
+.footer-col a { display: block; color: var(--muted); font-size: 0.9rem; padding: 6px 0; transition: color 0.2s; }
+.footer-col a:hover { color: var(--green); }
+.footer-disclaimer { color: var(--muted2); font-size: 0.78rem; max-width: 700px; margin: 0 auto; }
+.footer-disclaimer a { color: var(--green); }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
   .steps, .ways-grid, .payout-grid { grid-template-columns: 1fr 1fr; }
   .reviews-grid { grid-template-columns: 1fr; }
   .stats { gap: 24px; }
   .stat-div { display: none; }
+  .footer-col-group { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 600px) {
   .steps, .ways-grid, .payout-grid { grid-template-columns: 1fr; }
   .tp-banner { gap: 20px; }
   .tp-div { display: none; }
+  .footer-col-group { grid-template-columns: 1fr; text-align: center; }
 }
 </style>
 
@@ -580,34 +590,45 @@ footer a { color: var(--green); }
   <p class="cta-note">Free to join. Available worldwide. Earnings vary by location and activity.</p>
 </section>
 
-<!-- CROSS LINKS -->
-<section class="cross-links">
-  <div class="cross-links-header">
-    <h3>Also worth considering</h3>
-  </div>
-  <div class="cross-links-grid">
-    <a href="https://gemsloot.com/?aff=gloot2026" class="cross-link" rel="nofollow sponsored" target="_blank">
-      <strong>Gemsloot</strong>
-      <span>Games & surveys</span>
-    </a>
-    <a href="https://earnlab.com/r/elab2026" class="cross-link" rel="nofollow sponsored" target="_blank">
-      <strong>EarnLab</strong>
-      <span>Daily tasks</span>
-    </a>
-    <a href="https://cashinstyle.com/?ref=cashinstyle2026" class="cross-link" rel="nofollow sponsored" target="_blank">
-      <strong>CashInStyle</strong>
-      <span>High payouts</span>
-    </a>
-    <a href="https://www.swagbucks.com/profile/r_193428156?rp=1" class="cross-link" rel="nofollow sponsored" target="_blank">
-      <strong>Swagbucks</strong>
-      <span>Surveys & games</span>
-    </a>
-  </div>
-</section>
+
 
 <!-- FOOTER -->
 <footer>
-  <p>This page contains affiliate links to <a href="https://freecash.com/r/GMQ2A" rel="nofollow sponsored" target="_blank">Freecash.com</a>. We may earn a commission if you sign up. Freecash is operated by Almedia GmbH, Berlin, Germany. Earnings are not guaranteed and vary by user. Review information sourced from Trustpilot, Reddit, and third-party sites as of 2025.</p>
+  <div class="big-footer">
+    <div class="footer-col-group">
+      <div class="footer-col">
+        <h4>GPT Sites</h4>
+        <a href="https://freecash.com/r/GMQ2A" target="_blank">Freecash</a>
+        <a href="https://gemsloot.com/?aff=gloot2026" target="_blank">Gemsloot</a>
+        <a href="https://earnlab.com/r/elab2026" target="_blank">EarnLab</a>
+        <a href="https://www.ysense.com/?rb=233597593" target="_blank">ySense</a>
+        <a href="https://www.prizerebel.com/index.php?r=16565543" target="_blank">PrizeRebel</a>
+        <a href="https://www.swagbucks.com/profile/r_193428156?rp=1" target="_blank">Swagbucks</a>
+        <a href="https://earnably.com/join/3324878" target="_blank">Earnably</a>
+      </div>
+      <div class="footer-col">
+        <h4>Gaming Rewards</h4>
+        <a href="https://www.idle-empire.com/?r=jmgd70" target="_blank">Idle-Empire</a>
+        <a href="https://rewardy.io/?ref=cfcmalky3dbcd5" target="_blank">Rewardy</a>
+        <a href="https://earnlab.com/games/elab2026" target="_blank">EarnLab Games</a>
+        <a href="https://cashinstyle.com/?ref=cashinstyle2026" target="_blank">CashInStyle</a>
+      </div>
+      <div class="footer-col">
+        <h4>Cashback</h4>
+        <a href="https://www.rakuten.co.uk/r/CFCMAL?eeid=28187" target="_blank">Rakuten</a>
+        <a href="https://www.topcashback.co.uk/ref/member6126273507627" target="_blank">TopCashback</a>
+        <a href="https://cashback.co.uk?referral=56086371-5930-4a84-b08d-17472113a99e&utm_source=referral&utm_medium=organic" target="_blank">Cashback.co.uk</a>
+        <a href="https://joincustard.co.uk/ur/Jji7cU83SlSns2HlsiHH_g==" target="_blank">Custard</a>
+        <a href="https://www.inboxpounds.co.uk/?rb=193441109" target="_blank">InboxPounds</a>
+      </div>
+      <div class="footer-col">
+        <h4>Shopping & Tools</h4>
+        <a href="https://wise.com/invite/dic/michaelm19582" target="_blank">Wise</a>
+        <a href="http://joinhoney.com/ref/ehb2eri" target="_blank">Honey</a>
+      </div>
+    </div>
+  </div>
+  <p class="footer-disclaimer">This page contains affiliate links to <a href="https://freecash.com/r/GMQ2A" rel="nofollow sponsored" target="_blank">Freecash.com</a>. We may earn a commission if you sign up. Freecash is operated by Almedia GmbH, Berlin, Germany. Earnings are not guaranteed and vary by user. Review information sourced from Trustpilot, Reddit, and third-party sites as of 2025.</p>
 </footer>
 
 </body>
